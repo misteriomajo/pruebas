@@ -1,0 +1,383 @@
+.sp_xm9DDmY7HAL_3x {
+    background-image: url("../../assets/img/cvj8rfO8RgU.png");
+    background-size: 19px 67px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 33px;
+    width: 23px;
+    margin-top: 11px;
+}
+.headerhome{
+    position: relative;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    background: #fffbe2;
+    padding: 8px 13px;
+}
+.headerbodytext p{
+font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+color: #3b5998;
+font-size: 14px;
+margin: 0px;
+margin-top: 10px;
+}
+
+.bodyfrombody{
+    display: grid;
+    padding-bottom: 15%;
+    padding-top: 7.5%;
+}
+
+@media (min-width: 200px) {
+    .contentfromfoot{
+        display: none;
+    }
+    .fromimg img{
+        width: 35%;
+    }
+    .fromtextimg{
+        display: none;
+    }
+    .fromimg{
+        text-align: center;
+        margin-top: -24px;
+    }
+    .bodyhome{
+        background: #fff;
+        min-height: 100vh;
+    }
+    .bodyfrom{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .frominputmail{
+        display: none;
+    }
+    .frominputpass{
+        display: none;
+    }
+    .frominputmailmovil{
+        padding-bottom: 10px;
+    }
+    .frominputpassmovil{
+        padding-bottom: 10px;
+    }
+    .entrarbuton{
+        display: none;
+    }
+    .frominputmailmovil input{
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        height: 32px;
+        line-height: 12px;
+        padding: 0 6px;
+        padding: 6px;
+        width: 96%;
+        vertical-align: middle;
+        border-radius: 3px;
+        background: #f5f6f7;
+    }
+    .frominputpassmovil input{
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        height: 32px;
+        line-height: 12px;
+        padding: 0 6px;
+        padding: 6px;
+        width: 96%;
+        vertical-align: middle;
+        border-radius: 3px;
+        background: #f5f6f7;
+    }
+    .entrarbutonmovil{
+        background-color: #1877f2;
+        border: none;
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        border-radius: 6px;
+        font-size: 15px;
+        line-height: 38px;
+        padding: 0 16px;
+    }
+    .nuevacuenta{
+        display: none;
+    }
+    .cuentanueva{
+        display: none;
+    }
+    .nuevacuentamovil{
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        background: #00a400;
+        line-height: 38px;
+        padding: 0 16px;
+        color: white;
+        font-weight: bold;
+        margin-left: 23%;
+    }
+    .fkpla{
+        display: none;
+    }
+    .fkplamovil{
+        color: #75b2e1;
+        text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 20%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .cuentanuevamovil{
+            margin-top: 10px;
+            padding-bottom: 40px;
+        }
+        .divisionseparatoria{
+            display: none;
+        }
+        .divisionseparatoriamovil p{
+                text-align: center;
+                position: relative;
+        }
+        .divisionseparatoriamovil p::before{
+            content: '';
+            width: 47%;
+            height: 2px;
+            position: absolute;
+            bottom: 8px;
+            left: 0px;
+            background: #e1e4e7;
+            border-radius: 18px;
+        }
+        .divisionseparatoriamovil p::after {
+            content: '';
+            width: 47%;
+            height: 2px;
+            position: absolute;
+            bottom: 8px;
+            right: 0px;
+            background: #e1e4e7;
+            border-radius: 18px;
+        }
+}
+
+@media (min-width: 600px) {
+    .bodyfrombody { grid-template-columns: repeat(2, 1fr); }
+    .contentfromfoot{
+        display: none !important;
+    }
+   
+    .headerhome{
+        display: block;
+    }
+   
+  }
+  
+  
+  
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+    .bodyhome{
+        background: #f0f2f5;
+        min-height: 100vh;
+    }
+    .bodyfrombody { grid-template-columns: repeat(2, 1fr); }
+    .headerhome{
+        display: none;
+    }
+    .bodyfromleft{
+        margin-top: 14.3%;
+        margin-left: 1%;
+    }
+    .fromtextimg{
+        margin-top: -17px;
+        display: block;
+    }
+    .containerrigt{
+        margin-left: 12%;
+    }
+    .contentfromfoot{
+        border-top: none;
+        color: #1c1e21;
+        font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding-top: 0;
+        text-align: center;
+        max-width: 374px;
+        margin: auto;
+        margin-left: 3%;
+        margin-top: 12px;
+    }
+    .contentfromfoot span{
+        font-weight: bold;
+    }
+    .fromtextimg h2{
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        width: 500px;
+        margin: 0px;
+    }
+    .fromimg img {
+        width: 62%;
+        margin-left: -34px;
+    }
+    .bodyfrombody{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    
+    .bodyfromright{
+    align-items: center;
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+        margin: 40px 0 0;
+        padding: 20px 20px 28px;
+        width: 396px;
+        margin-top: 20px;
+    }
+    .frominputmail{
+        padding-bottom: 20px;
+    }
+    .frominputpass{
+        padding-bottom: 20px;
+    }
+    .frominputpass input{
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        height: 35px;
+        line-height: 16px;
+        padding: 0 8px;
+        padding: 7px;
+        width: 96%;
+        font-size: 18px;
+        vertical-align: middle;
+        border-radius: 6px;
+    }
+    .frominputmailmovil{
+        display: none;
+    }
+    .frominputpassmovil{
+        display: none;
+    }
+    .frominputmail input{
+        display: block;
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        height: 35px;
+        line-height: 16px;
+        padding: 0 8px;
+        padding: 7px;
+        width: 96%;
+        font-size: 18px;
+        vertical-align: middle;
+        border-radius: 6px;
+    }
+    .entrarbutonmovil{
+        display: none;
+    }
+    .entrarbuton{
+    background-color: #1877f2;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    
+    }
+    .fkplamovil{
+        display: none;
+    }
+    .fkpla{
+    color: #1877f2;
+    text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nuevacuenta{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    background: #42b72a;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    font-weight: bold;
+    margin-left: 23%;
+    }
+    .cuentanueva{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .separadorbottones{
+        padding: 5px;
+    }
+    .nuevacuenta{
+        display: block;
+    }
+    .cuentanueva{
+        display: block;
+    }
+    .divisionseparatoria{
+        display: block;
+    }
+    .nuevacuentamovil{
+        display: none;
+    }
+    .cuentanuevamovil{
+        display: none;
+    }
+    .divisionseparatoriamovil{
+        display: none;
+    } 
+    .frominputmailmovil{
+        display: block;
+    }
+    .frominputpassmovil{
+        display: block;
+    }   
+    .divisionseparatoria{
+        display: block;
+    }
+    .entrarbuton{
+        display: block;
+    }
+  .contentfromfoot{
+        display: block;
+    }
+    .nuevacuenta{
+        display: block;
+    }
+    .cuentanueva{
+        display: block;
+    }
+    .fkpla{
+        display: block;
+    }
+    .fromimg {
+        text-align: initial;
+        margin-top: -24px;
+    }
+  }
